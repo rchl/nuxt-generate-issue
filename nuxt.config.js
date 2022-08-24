@@ -3,18 +3,8 @@ export default {
   target: 'static',
 
   generate: {
-    routes: ['/', '/products'],
+    routes: ['/'],
   },
-  i18n: {
-    locales: [
-      { code: 'en' },
-      { code: 'fr' },
-      { code: 'es' }
-    ],
-    defaultLocale: 'en',
-    strategy: 'prefix_except_default',
-  },
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nuxt-app',
@@ -46,7 +36,6 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/i18n',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

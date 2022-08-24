@@ -6,16 +6,14 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "node ./node_modules/nuxt/bin/nuxt.js generate --force-build"
   },
   "dependencies": {
-    "@nuxtjs/i18n": "^7.2.2",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
-    "vue": "^2.6.14",
-    "vue-server-renderer": "^2.6.14",
-    "vue-template-compiler": "^2.6.14",
+    "vue": "2.6.14",
+    "vue-server-renderer": "2.6.14",
+    "vue-template-compiler": "2.6.14",
     "webpack": "^4.46.0"
-  },
-  "devDependencies": {}
+  }
 }
